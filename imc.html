@@ -1,0 +1,78 @@
+<!-- <meta charset="UTF-8">
+
+<h1>PROGRAMA CALCULO IMC</h1>
+
+<script>
+
+	function saltarLinea() {
+
+		document.write("<br>");	
+		document.write("<br>");	
+		document.write("<br>");	
+
+	}
+
+	function imprimir(frase) {
+
+		document.write(frase);
+		saltarLinea();
+
+	}
+    function calcularImc (peso,altura) {
+        return (peso / (altura * altura));
+
+    }
+    
+    imprimir("El promedio del imc calculado de Chiristian y Felipe es: " + (calcularImc(71,1.72)+calcularImc (75,1.75))/2);
+    imprimir("El promedio del imc calculado de Gabriela y Luisa es: " + (calcularImc (65,1.68)+calcularImc (55,1.60)) /2); -->
+    <!-- // function calcularImc(peso,altura,nombre){
+    //     imc = peso / (altura * altura);
+    //     imprimir("El imc calculado de " + nombre + " es" + imc );
+    // }
+
+    // calcularImc(84,1.70,"Emi")
+    // calcularImc(67,1.52,"Lau")
+
+    // pesoEmi = 84
+    // alturaEmi = 1.70
+    // imcEmi = pesoEmi / (alturaEmi * alturaEmi)
+    // imcEmi = calcularImc(pesoEmi,alturaEmi)
+
+    // imprimir("El IMC de Emi es: " + imcEmi)
+
+    // pesoLau = 67
+    // alturaLau = 1.52
+    // imcLau = pesoLau / (alturaLau * alturaLau)
+    // imcLau = calcularImc(pesoLau,alturaLau)
+
+    // imprimir("El IMC de Lau es: " + imcLau)
+
+
+
+</script> -->
+
+<meta charset="UTF-8">
+
+<script>
+    function saltarLinea() {
+
+        document.write("<br>");
+    }
+
+    function mostrar(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function a(numero1, numero2) {
+        return numero1 + numero2;
+    }
+
+    function b(numero1, numero2) {
+        return numero1 / numero2;
+    }
+
+    var resultado = a(10,20) + b(30,2);
+
+    mostrar(resultado);
+</script>
